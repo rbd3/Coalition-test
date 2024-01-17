@@ -140,15 +140,7 @@ h1.Mountains {
     height: auto;
 }
 
-.history-container {
-    position: relative;
-}
 
-.history-bg {
-    width: 100%; /* Make the image cover the entire width of its container */
-    height: auto; /* Maintain the image's aspect ratio */
-    display: block;
-}
 
 .history-wraper {
     display: flex;
