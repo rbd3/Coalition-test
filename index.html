@@ -107,11 +107,11 @@
             </div>
         </section>
 
-        <section class="schedule-wrapper">
+        
           <div class="bottomnav" id="mybottonpnav">
             <div class="nav-wrapper">
-              <a href="#news">MOUNTAIN 1</a>
-              <a href="#contact">MOUNTAIN 2</a>
+              <a href="#news" onclick="toggleActive(this)">MOUNTAIN 1</a>
+              <a href="#contact" onclick="toggleActive(this)">MOUNTAIN 2</a>
               <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
               </a>
@@ -119,7 +119,17 @@
             
           </div>
 
-        </section>
+          <section class="schedule-container">
+            <div class="schedule-wrapper">
+              <h4 class="schedule-text">SCHEDULE</h4>
+              <P>25 Nov 2016</P> <p>Vestibulum viverra</p>
+              <p>28 Nov 2016</p> <p>Vestibulum viverra</p>
+              <p>18 Dec 2016</p> <p>Vestibulum viverra</p>
+              <p>7 Janv 2017</p> <p>Vestibulum viverra</p>
+
+            </div>
+            
+          </section>
     </main>
 
     
@@ -178,6 +188,19 @@
     }
   }
   </script>
+
+<script>
+  function toggleActive(element) {
+    // Remove "active" class from all links
+    var links = document.querySelectorAll('.bottomnav a');
+    links.forEach(function(link) {
+      link.classList.remove('active');
+    });
+
+    // Add "active" class to the clicked link
+    element.classList.add('active');
+  }
+</script>
 
     
 </body>
