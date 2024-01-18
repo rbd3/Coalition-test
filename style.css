@@ -283,7 +283,7 @@ margin-left: 14.5%;
     flex-direction: column;
     padding: 20px; 
     width: 25%;
-    height: 40vh;
+    height: 30vh;
     background-color: #e7ebe9;
     margin-top: 8%;
     margin-left: 17%;
@@ -296,11 +296,9 @@ margin-left: 14.5%;
 
   .schedule-wrapper p:nth-child(odd) {
     margin-left: auto;
+    margin-top: -4%;
   }
 
-.schedule-content {
-  
-}
 
 
 
