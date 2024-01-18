@@ -267,16 +267,38 @@ margin-left: 14.5%;
 
 /* schedule-wrapper */
 
-/* schedule-wrapper */
-.schedule-container {
-  background-image: url(media/flying-canadian.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  margin-top: -0.8%;
-}
+  /* schedule-wrapper */
+  .schedule-container {
+    
+    background-image: url(media/flying-canadian.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0%;
+    display: flex;
+  }
 
-.schedule-wrapper {
+  .schedule-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px; 
+    width: 25%;
+    height: 40vh;
+    background-color: #e7ebe9;
+    margin-top: 8%;
+    margin-left: 17%;
+    
+  }
+
+  .schedule-wrapper p {
+    margin: 0;
+  }
+
+  .schedule-wrapper p:nth-child(odd) {
+    margin-left: auto;
+  }
+
+.schedule-content {
   
 }
 
