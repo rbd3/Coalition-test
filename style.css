@@ -54,14 +54,12 @@ h1.Mountains {
     margin-top: -7%;
   }
   
-  /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #405e3b;
     color: black;
     text-decoration: none;
   }
   
-  /* Add an active class to highlight the current page */
   .topnav a.active {
     background-color: #04AA6D;
     color: white;
@@ -95,17 +93,15 @@ h1.Mountains {
   }
 
   .nav-wrapper {
-margin-left: 14.5%;
+    margin-left: 14.5%;
   }
   
-  /* Change the color of links on hover */
   .bottomnav a:hover {
     background-color: white;
     color: black;
     text-decoration: none;
   }
   
-  /* Add an active class to highlight the current page */
   .bottomnav a.active {
     background-color: rgba(245, 239, 239, 0.616);
     color:  rgb(8, 44, 83);
@@ -252,8 +248,6 @@ margin-left: 14.5%;
 
 
 /* carousel */
-
-/* carousel */
 .container .carousel {
     width: 80%;
     margin: auto;
@@ -261,8 +255,8 @@ margin-left: 14.5%;
 }
 
 .container img {
-    width: 95%; /* Make the images cover the entire width of their container */
-    height: 28vh; /* Maintain the image's aspect ratio */
+    width: 95%;
+    height: 28vh;
 }
 
 .slick-slide {
