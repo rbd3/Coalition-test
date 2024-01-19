@@ -318,6 +318,12 @@ footer {
   margin-top: -2%;
  }
 
+ footer-w {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
 
 
 

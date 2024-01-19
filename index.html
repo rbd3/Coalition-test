@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Losangeles Mountains</title>
+    <link rel="stylesheet" href="mobile.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
@@ -135,12 +136,15 @@
     </main>
 
     <footer>
-      <div class="logo-wrapper">
-        <img src="media/header-bg.jpg" alt="logo" class="logo">
-        <h4>LOSANGELES <br>MOUNTAINS</h4>
-    </div>
-
-    <p>COPYRIGHT 2016. ALL RIGHTS RESERVED</p>
+      <div class="footer-w">
+        <div class="logo-wrapper">
+          <img src="media/header-bg.jpg" alt="logo" class="logo">
+          <h4>LOSANGELES <br>MOUNTAINS</h4>
+      </div>
+  
+      <p>COPYRIGHT 2016. ALL RIGHTS RESERVED</p>
+      </div>
+      
     </footer>
 
     
@@ -148,71 +152,6 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script>
-  $(document).ready(function () {
-    $('.carousel').slick({
-  dots: true,
-  infinite: false,
-  speed: 300,
-  slidesToShow: 4,
-  slidesToScroll: 4,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
-				
-  });
-</script>
-
-<script>
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
-  </script>
-
-<script>
-  function toggleActive(element) {
-    // Remove "active" class from all links
-    var links = document.querySelectorAll('.bottomnav a');
-    links.forEach(function(link) {
-      link.classList.remove('active');
-    });
-
-    // Add "active" class to the clicked link
-    element.classList.add('active');
-  }
-</script>
-
-    
+<script src="script.js"></script>    
 </body>
 </html>
