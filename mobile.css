@@ -7,11 +7,11 @@
     }
     
     .carousel {
-        width: 100%; /* Use 100% width for the carousel */
+        width: 100%;
     }
     
     .carousel img {
-        max-width: 80%; /* Set maximum width for images to prevent overflow */
+        max-width: 80%;
         height: auto;
     }
 /* CLIMB */
@@ -44,10 +44,5 @@
   .climb-wraper p {
     margin-left: 30%;
     margin-top: 0%;
-  }
-  
-  
-    
-    
-    
+  } 
 }
