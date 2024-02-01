@@ -73,7 +73,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/rbd3/RBD-High-School.git
+  git clone https://github.com/rbd3/Coalition-test.git
 ```
 --->
 
@@ -84,12 +84,6 @@ Example commands:
 ### **Usage**
 - To use it open the `index.html` file.
 <br>
-
-### Run tests
-To run tests, run the following command:
-
-- npx stylelint "**/*.{css,scss}"
-- npx hint .
 
 ### Deployment
 
@@ -110,10 +104,10 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Add more pages
-- Develop more sections, contents of those sections
-- Add more teacher
-- Backend part for internal use
+- Add team page
+- Fix mobile version
+- Fix caroussel in mobile version
+- Use high quality images
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
