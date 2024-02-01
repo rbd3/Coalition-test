@@ -115,21 +115,20 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/rbd3/RBD-High-School/issues)
+Feel free to check the [issues page](https://github.com/rbd3/Coalition-test/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ **Show your support** <a id="support"></a>
 - Give a ⭐️ if you like this project!
-- https://github.com/rbd3/RBD-High-School
+- https://github.com/Coalition-test
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 **Acknowledgments** <a id="acknowledgements"></a>
 
 I would like to thank...
-- Microverse Review Team
-- [Cindy Shin](https://www.behance.net/adagio07), since the whole website is based on her template.
+- Coalition Technology for allowing me to do the test
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
